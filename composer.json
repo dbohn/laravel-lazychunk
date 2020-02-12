@@ -1,0 +1,36 @@
+{
+    "name": "davidbohn/laravel-lazychunk",
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": "^6.14",
+        "illuminate/database": "^6.14"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.6",
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dababo\\LazyChunk\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dababo\\LazyChunk\\Tests\\": "tests"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Bohn",
+            "email": "davbohn@googlemail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dababo\\LazyChunk\\LazyChunkServiceProvider"
+            ]
+        }
+    }
+}
