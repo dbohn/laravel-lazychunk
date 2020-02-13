@@ -1,5 +1,7 @@
 # Laravel Lazy Chunk
 
+![Run tests](https://github.com/dbohn/laravel-lazychunk/workflows/Run%20tests/badge.svg?branch=master)
+
 This library adds the ability to work with chunked query results using lazy collections.
 
 ## Motivation
